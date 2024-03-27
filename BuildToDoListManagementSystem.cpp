@@ -27,3 +27,13 @@ void BuildToDoListManagementSystem::BuildManagementSystem() {
     } while (selection != NUMBER_OF_SELECTION);
   }
 }
+
+void BuildToDoListManagementSystem::PrintMenuSelection() {
+  std::cout << "\nWelcome to the To-Do List Management System\n";
+  std::cout << "1. Add Task.\n";
+  std::cout << "2. Mark Task Complete/Pending.\n";
+  std::cout << "3. Delete Task\n";
+  std::cout << "4. List Tasks\n";
+  std::cout << "5. EXIT\n";
+  std::cout << "Your Selection >> ";
+}
